@@ -1,0 +1,121 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default font styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #333;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Style the hero section */
+#home {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #0e0000;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the sections */
+section {
+    padding: 50px;
+    background-color: #fff;
+}
+
+section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style the skills section */
+#skills ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+/* Style the projects section */
+.project h3 {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.project img {
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.project a:hover {
+    background-color: #555;
+}
+
+/* Style the contact section */
+#contact p {
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
